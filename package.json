@@ -1,0 +1,17 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Marco Antonio Rodrigues Coutinho <marco4coutinho@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  },
+  "scripts": {
+    "dev": "babel ./app.js -o bundle.js -w"
+  }
+}
